@@ -16,6 +16,7 @@
     "react-particles": "^2.9.3",
     "react-particles-js": "^3.6.0",
     "react-scripts": "5.0.1",
+    "react-share": "^4.4.1",
     "react-typed": "^1.2.0",
     "tsparticles": "^1.43.1",
     "web-vitals": "^2.1.4"
