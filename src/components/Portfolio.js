@@ -236,61 +236,62 @@ const Portfolio = () => {
             <div className="container">
                 <h1 className="text-uppercase text-center py-5">Project</h1>
                 <div className="image-box-wrapper d-flex justify-content-center align-items-center flex-wrap">
-                    <div className="portfolio-image-box"  onClick={openPopupboxBulky}>
+                    <div className="portfolio-image-box" onClick={() => window.open("https://github.com/Mahatabe/BulkyBook")}>
                         <img className="portfolio-image" src={bulky} alt="bulky Clone Project..." />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
                     {/* - */}
-                    <div className="portfolio-image-box" onClick={openPopupboxWheels}>
+                    <div className="portfolio-image-box" onClick={() => window.open("https://github.com/Mahatabe/4_wheels")}>
                         <img className="portfolio-image" src={wheels} alt="wheels Project..." />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
                     {/* - */}
-                    <div className="portfolio-image-box" onClick={openPopupboxRating}>
+                    <div className="portfolio-image-box" onClick={() => window.open("https://github.com/Mahatabe/Rating_scale_with_smartphone_sensor_data")}>
                         <img className="portfolio-image" src={rating} alt="" />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
                     {/* - */}
-                    <div className="portfolio-image-box" onClick={openPopupboxGuard}>
+                    <div className="portfolio-image-box" onClick={() => window.open("https://github.com/Mahatabe/Final_mrGuard")}>
                         <img className="portfolio-image" src={mrGuard} alt="" />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
                     {/* - */}
-                    <div className="portfolio-image-box" onClick={openPopupboxSensor}>
+                    <div className="portfolio-image-box" onClick={() => window.open("https://github.com/Mahatabe/SensorGPSService")}>
                         <img className="portfolio-image" src={sensor} alt="" />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
                     {/* - */}
-                    <div className="portfolio-image-box" onClick={openPopupboxElegant}>
+                    <div className="portfolio-image-box" onClick={() => window.open("https://github.com/FatimaJuairiah19/ElegantInteriors")}>
                         <img className="portfolio-image" src={elegant} alt="" />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+                        
                     </div>
                     {/* - */}
-                    <div className="portfolio-image-box" onClick={openPopupboxRealEstate}>
+                    <div className="portfolio-image-box" onClick={() => window.open("https://github.com/Mahatabe/Real-Estate-Networking-and-Solutions")}>
                         <img className="portfolio-image" src={realEstate} alt="" />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
                     {/* - */}
-                    <div className="portfolio-image-box" onClick={openPopupboxSticky}>
+                    <div className="portfolio-image-box" onClick={() => window.open("https://github.com/Mahatabe/sticky_note_react")}>
                         <img className="portfolio-image" src={sticky} alt="" />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
                     {/* - */}
-                    <div className="portfolio-image-box" onClick={openPopupboxHarvey}>
+                    <div className="portfolio-image-box" onClick={() => window.open("https://github.com/Mahatabe/The-Adventure-of-Harvey")}>
                         <img className="portfolio-image" src={harvey} alt="" />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
                     {/* - */}
-                    <div className="portfolio-image-box" onClick={openPopupboxOffice}>
+                    <div className="portfolio-image-box" onClick={() => window.open("https://github.com/Mahatabe/MCM-Group-LTD.")}>
                         <img className="portfolio-image" src={office} alt="" />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
