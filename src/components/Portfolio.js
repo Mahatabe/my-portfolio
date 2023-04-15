@@ -1,14 +1,14 @@
 import React from "react"
 import bulky from "../images/bulky.png";
-import wheels from "../images/4wheels.jpg";
-import three from "../images/three.png";
+import wheels from "../images/4wheels.png";
+import rating from "../images/rating.png";
 import mrGuard from "../images/mrGuard.png";
 import sensor from "../images/sensor.jpg";
 import elegant from "../images/elegant.jpg";
-import page from "../images/page.png";
+import realEstate from "../images/realEstate.png";
 import sticky from "../images/sticky.png";
 import harvey from "../images/harvey.png";
-import user from "../images/user.jpg";
+import office from "../images/office.png";
 
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -62,10 +62,10 @@ const Portfolio = () => {
     }
 
     // Rating scale App
-    const openPopupboxThree = () => {
+    const openPopupboxRating = () => {
         const content = (
             <>
-                <img className="portfolio-image-popupbox" src={three} alt="" />
+                <img className="portfolio-image-popupbox" src={rating} alt="" />
                 <p>An application to predict user-preferred rating scales with the help of smartphone sensor data.</p>
                 <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Mahatabe/Rating_scale_with_smartphone_sensor_data")}>https://github.com/Mahatabe/Rating_scale_with_smartphone_sensor_data</a>
             </>
@@ -73,7 +73,7 @@ const Portfolio = () => {
         PopupboxManager.open({ content })
     }
 
-    const popupboxConfigThree = {
+    const popupboxConfigRating = {
         titleBar: {
             enable: true,
             text: "Rating scale with smartphone sensor data project."
@@ -146,10 +146,10 @@ const Portfolio = () => {
     }
 
     // Real estate App
-    const openPopupboxPage = () => {
+    const openPopupboxRealEstate = () => {
         const content = (
             <>
-                <img className="portfolio-image-popupbox" src={page} alt="" />
+                <img className="portfolio-image-popupbox" src={realEstate} alt="" />
                 <p>Built an application for developers and clients where Real Estate companies can streamline their new projects and make more innovative collaborations between clients and real estate companies by using JAVA and SQL.</p>
                 <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Mahatabe/Real-Estate-Networking-and-Solutions")}>https://github.com/Mahatabe/Real-Estate-Networking-and-Solutions</a>
             </>
@@ -157,7 +157,7 @@ const Portfolio = () => {
         PopupboxManager.open({ content })
     }
 
-    const popupboxConfigPage = {
+    const popupboxConfigRealEstate = {
         titleBar: {
             enable: true,
             text: "Real Estate Networking and Solution project."
@@ -209,10 +209,10 @@ const Portfolio = () => {
     }
 
     // Office App
-    const openPopupboxUser = () => {
+    const openPopupboxOffice = () => {
         const content = (
             <>
-                <img className="portfolio-image-popupbox" src={user} alt="" />
+                <img className="portfolio-image-popupbox" src={office} alt="" />
                 <p>A software development office managementproject using java and xampp.</p>
                 <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Mahatabe/MCM-Group-LTD.")}>https://github.com/Mahatabe/MCM-Group-LTD.</a>
             </>
@@ -220,7 +220,7 @@ const Portfolio = () => {
         PopupboxManager.open({ content })
     }
 
-    const popupboxConfigUser = {
+    const popupboxConfigOffice = {
         titleBar: {
             enable: true,
             text: "Office management project."
@@ -235,8 +235,8 @@ const Portfolio = () => {
         <div id="portfolio" className="portfolio-wrapper">
             <div className="container">
                 <h1 className="text-uppercase text-center py-5">Project</h1>
-                <div className="image-box-wrapper row justify-content-center">
-                    <div className="portfolio-image-box" onClick={openPopupboxBulky}>
+                <div className="image-box-wrapper d-flex justify-content-center align-items-center flex-wrap">
+                    <div className="portfolio-image-box"  onClick={openPopupboxBulky}>
                         <img className="portfolio-image" src={bulky} alt="bulky Clone Project..." />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
@@ -248,8 +248,8 @@ const Portfolio = () => {
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
                     {/* - */}
-                    <div className="portfolio-image-box" onClick={openPopupboxThree}>
-                        <img className="portfolio-image" src={three} alt="" />
+                    <div className="portfolio-image-box" onClick={openPopupboxRating}>
+                        <img className="portfolio-image" src={rating} alt="" />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
@@ -272,8 +272,8 @@ const Portfolio = () => {
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
                     {/* - */}
-                    <div className="portfolio-image-box" onClick={openPopupboxPage}>
-                        <img className="portfolio-image" src={page} alt="" />
+                    <div className="portfolio-image-box" onClick={openPopupboxRealEstate}>
+                        <img className="portfolio-image" src={realEstate} alt="" />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
@@ -290,8 +290,8 @@ const Portfolio = () => {
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
                     {/* - */}
-                    <div className="portfolio-image-box" onClick={openPopupboxUser}>
-                        <img className="portfolio-image" src={user} alt="" />
+                    <div className="portfolio-image-box" onClick={openPopupboxOffice}>
+                        <img className="portfolio-image" src={office} alt="" />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
@@ -299,14 +299,14 @@ const Portfolio = () => {
             </div>
             <PopupboxContainer {...popupboxConfigBulky} />
             <PopupboxContainer {...popupboxConfigWheels} />
-            <PopupboxContainer {...popupboxConfigThree} />
+            <PopupboxContainer {...popupboxConfigRating} />
             <PopupboxContainer {...popupboxConfigGuard} />
             <PopupboxContainer {...popupboxConfigSensor} />
             <PopupboxContainer {...popupboxConfigElegant} />
-            <PopupboxContainer {...popupboxConfigPage} />
+            <PopupboxContainer {...popupboxConfigRealEstate} />
             <PopupboxContainer {...popupboxConfigSticky} />
             <PopupboxContainer {...popupboxConfigHarvey} />
-            <PopupboxContainer {...popupboxConfigUser} />
+            <PopupboxContainer {...popupboxConfigOffice} />
         </div>
     )
 }

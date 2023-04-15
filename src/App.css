@@ -10,6 +10,7 @@
   --primary-black: #000000;
   --primary-green: green;
   --primary-dark-grey: #666666;
+  --primary-transparent-black: rgba(0,0,0,0.7);
   --primary-grey: #ccd1d9;
 }
 
@@ -323,7 +324,7 @@ a:link {
 }
 
 
-/************************ PORTFOLIO *********************************/
+/*********************** PORTFOLIO ********************************/
 .portfolio-wrapper {
   background: var(--primary-light-grey);
   padding: 3rem 0;
@@ -344,7 +345,7 @@ a:link {
   margin: 1rem;
 }
 
-/*------------ OVERFLOW BOX ------------------*/
+
 .overflow {
   position: absolute;
   opacity: 0;
@@ -380,7 +381,7 @@ a:link {
   margin-top: 7rem;
 }
 
-/*------------ OVERFLOW BOX ------------------*/
+
 .portfolio-image-popupbox {
   width: 45rem;
   padding: 0 0.5rem;
@@ -395,7 +396,7 @@ a:link {
   color: var(--primary-red);
 }
 
-/*------------ MEDIA ------------------*/
+
 @media(max-width: 768px) {
   .portfolio-image-popupbox {
     width: 100%;
@@ -416,10 +417,77 @@ a:link {
   .popupbox-wrapper {
     height: 90%;
   }
-
-  .portfolio-image-popupbox {
-    width: 30%;
+    .portfolio-image-popupbox {
+      width: 30%;
+    }
   }
+
+
+
+/************************ TESTIMONIALS *********************************/
+.testimonials {
+  background-image: url(research-bg.jpg);
+  background-size: cover;
+  background-color: var(--primary-black);
+  text-align: center;
+  padding-bottom: 4rem;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.testimonials h1 {
+  color: var(--primary-oranage);
+  padding: 3rem 0;
+  text-transform: uppercase;
+}
+
+.R-link{
+  cursor: pointer;
+  color: var(--primary-oranage);
+}
+
+.testimonials-content {
+  text-align: center;
+  max-width: 53.125rem;
+  margin: 0 auto 2rem auto;
+  background: var(--primary-transparent-black); 
+}
+
+.myCarousel {
+  color: var(--primary-white);
+  background: transparent;
+  margin-top: -6%;
+  width: 54%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 6%;
+  padding-bottom: 8%;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 17.875rem;
+}
+
+.myCarousel h3 {
+  color: var(--primary-oranage);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.myCarousel p {
+  color: var(--primary-grey);
+}
+
+
+.carousel .slide {
+  background: transparent !important;
+  height: 100% !important;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.carousel-root {
+  margin: auto !important;
+  margin-top: 3% !important;
 }
 
 

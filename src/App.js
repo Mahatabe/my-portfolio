@@ -7,6 +7,7 @@ import AboutMe from "./components/AboutMe";
 import Education from "./components/Education";
 import Services from "./components/Services";
 import Portfolio from "./components/Portfolio";
+import Research from "./components/Research";
 import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
 
@@ -40,6 +41,7 @@ function App() {
       <Education />
       <Services />
       <Portfolio />
+      <Research />
       <Contacts />
       <Footer />
     </>
