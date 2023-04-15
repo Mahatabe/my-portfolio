@@ -18,8 +18,8 @@ const AboutMe = () => {
                         Eager to learn and implement enhanced software and technology solutions.
 
                         I am proficient in C++, Java, C#, Python, PHP, SQL.
-                        In software development, I am proficient in ASP.NET (.NET 6), JavaScript, HTML, CSS. Proficient in frontend library React, jQuery and Node. Proficient in framework Angular and Bootstrap.
-                        Worked with database such as Oracle, SQL Server, MongoDB and Xampp.
+                        In software development, I am proficient in ASP.NET (.NET 6), JavaScript, HTML, and CSS. Proficient in frontend library React, jQuery and Node. Proficient in framework Angular and Bootstrap.
+                        Worked with database such as Oracle, SQL Server, MongoDB, and Xampp.
 
                         I create responsive websites that are displayed on all devices desktops and smartphones.
 
